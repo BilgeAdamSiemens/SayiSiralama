@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T05:55:36.525Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="SqwmfuSP0AvDyIBnqcGr" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T05:57:44.347Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wwUHthmo4ZOaqDWluvu1" version="14.1.3" type="github">
   <diagram id="D3NoPQM8AtZQp0lQaoA0" name="Sayfa -1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mqhRqqmxVcEasiQQ8La9-8" value="Sırala (Bubble Sorting)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mqhRqqmxVcEasiQQ8La9-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mqhRqqmxVcEasiQQ8La9-8" target="mqhRqqmxVcEasiQQ8La9-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -23,7 +23,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mqhRqqmxVcEasiQQ8La9-11" value="Console.WriteLine()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mqhRqqmxVcEasiQQ8La9-12" value="Bitti" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="390" y="930" width="80" height="80" as="geometry" />
@@ -49,7 +49,7 @@
         <mxCell id="_D8LyV5RGn7Q7AC3F1hG-5" value="dizi[i] = n;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_D8LyV5RGn7Q7AC3F1hG-6" value="i++;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_D8LyV5RGn7Q7AC3F1hG-6" value="sayac++;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_D8LyV5RGn7Q7AC3F1hG-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_D8LyV5RGn7Q7AC3F1hG-5" target="_D8LyV5RGn7Q7AC3F1hG-6">
@@ -85,6 +85,12 @@
         </mxCell>
         <mxCell id="_D8LyV5RGn7Q7AC3F1hG-11" value="Console.WriteLine(dizi)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D8LyV5RGn7Q7AC3F1hG-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D8LyV5RGn7Q7AC3F1hG-11" target="mqhRqqmxVcEasiQQ8La9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
